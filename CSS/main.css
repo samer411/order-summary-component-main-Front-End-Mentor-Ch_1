@@ -57,7 +57,6 @@ body {
 }
 .card .done {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-
   background-color: hsl(245, 75%, 52%);
   color: #fff;
 }
