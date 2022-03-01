@@ -7,7 +7,7 @@ body {
 }
 .card {
   font-family: "Open Sans", sans-serif;
-  width: 600px;
+  width: 500px;
   border-radius: 10px;
   background-color: #fff;
   display: flex;
@@ -17,7 +17,7 @@ body {
   margin-top: 30px;
 }
 .card .photo img {
-  width: 600px;
+  width: 500px;
   border-radius: 10px 10px 0 0;
 }
 .card p {
@@ -34,7 +34,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.4em;
-
   background: hsl(225, 100%, 98%);
   border-radius: 10px;
   padding: 20px;
@@ -46,11 +45,14 @@ body {
   color: hsl(224, 23%, 55%);
   margin: 0 50px;
 }
+.card .payment .text span {
+  color: hsl(0, 100%, 0%);
+  font-weight: bold;
+}
 .card button {
   font-size: 1.2em;
-
   border: 0;
-  padding: 15px 115px;
+  padding: 15px 120px;
   margin: 20px 0;
   border-radius: 7px;
   font-weight: bold;
